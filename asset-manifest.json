@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/HASHAFAI/netflux/static/css/main.7ecf121f.chunk.css",
+    "main.js": "/HASHAFAI/netflux/static/js/main.18fc9cc4.chunk.js",
+    "main.js.map": "/HASHAFAI/netflux/static/js/main.18fc9cc4.chunk.js.map",
+    "runtime~main.js": "/HASHAFAI/netflux/static/js/runtime~main.9d4ea1dd.js",
+    "runtime~main.js.map": "/HASHAFAI/netflux/static/js/runtime~main.9d4ea1dd.js.map",
+    "static/js/2.4f56bca3.chunk.js": "/HASHAFAI/netflux/static/js/2.4f56bca3.chunk.js",
+    "static/js/2.4f56bca3.chunk.js.map": "/HASHAFAI/netflux/static/js/2.4f56bca3.chunk.js.map",
+    "index.html": "/HASHAFAI/netflux/index.html",
+    "precache-manifest.d56cbb997a12a49c6020c3accbc8a3ba.js": "/HASHAFAI/netflux/precache-manifest.d56cbb997a12a49c6020c3accbc8a3ba.js",
+    "service-worker.js": "/HASHAFAI/netflux/service-worker.js",
+    "static/css/main.7ecf121f.chunk.css.map": "/HASHAFAI/netflux/static/css/main.7ecf121f.chunk.css.map",
+    "static/media/all.scss": "/HASHAFAI/netflux/static/media/cover.e097d803.svg",
+    "static/media/logo.svg": "/HASHAFAI/netflux/static/media/logo.37a8bc92.svg"
+  }
+}
