@@ -28,7 +28,7 @@ class App extends React.Component {
           <div className="container">
             <Header/>
             <>
-            <Route exact path='/' render={props => {
+            <Route exact path='/home' render={props => {
               return(
                 <HomePage {...props} movies={this.state.movies} />
               )

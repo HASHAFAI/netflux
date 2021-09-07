@@ -6,7 +6,7 @@ const Links = () =>{
     return(
                      <ul className='navbar-menu'>
                         <li>
-                          <NavLink className='navbar-item' exact to="/">
+                          <NavLink className='navbar-item' exact to="/home">
                               الرئيسية
                           </NavLink>
                         </li>
