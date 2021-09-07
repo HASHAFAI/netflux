@@ -1,0 +1,66 @@
+// #scrollbar{
+//     flex-flow: row nowrap !important;
+//     justify-content: start !important;
+//     overflow: auto !important;
+//     -webkit-overflow-scrolling: touch !important;
+// }
+.moviesGrid {
+    display: flex;
+    @include media("<=phone") {
+        flex-flow: row wrap;
+        justify-content: start;
+    }
+    @include media(">phone", "<desktop") {
+        flex-flow: row nowrap;
+        justify-content: start;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    @include media(">=desktop") {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    li {
+        margin: .5rem;
+        max-width: 19rem;
+    }
+}
+.movie {
+    position: relative;
+    &:hover {
+        .movie-description {
+            opacity: 1;
+        }    
+    }
+    .movie-description {
+        font-size: 17px;
+        opacity: 0;
+        transition: opacity .25s ease-in-out;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        text-align: right;
+        padding: 15px 12px;
+        color: $primary-color;
+        font-weight: bold;
+        background-color: rgba($black, 0.9);
+        transition: all .6s ease;
+        &:hover {
+                color: $white;
+        }
+        .play-icon {
+            padding: 3px 0;
+            display: block;
+            &:hover {
+                i {
+                    color: $white;
+                }
+            }
+            i {
+                color: $black;
+                line-height: 3rem;
+            }
+        }
+    }
+}

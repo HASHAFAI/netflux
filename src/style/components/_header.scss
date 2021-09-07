@@ -1,0 +1,132 @@
+header.section {
+    background-color: $black;
+    align-items: stretch;
+    display: flex;
+    flex-shrink: 0;
+    padding: $spacing-basic;
+    .container {
+        display: flex;
+        width: 100%;
+    }
+    a {
+        display: flex;
+    }
+    @include media(">tablet") {
+        .navbar-menu {
+            margin-bottom: -1rem;
+            margin-right: 2rem;
+            .navbar-item {
+                padding-bottom: 2rem;
+            }
+        }
+    }
+}
+.navbar-menu {
+    @include media("<=tablet") {
+        display: none;
+    }
+    @include media(">tablet") {
+        display: flex;
+        align-items: center;
+    }
+    .navbar-item {
+        color: $gray-light;
+        text-decoration: none;
+        padding: $spacing-basic;
+        border-bottom: 1px solid transparent;
+        &:hover {
+            color: $white;
+        }
+        &.active {
+            color: $white;
+            border-bottom: 1px solid $primary-color;
+        }
+    }
+}
+.navbar-search {
+    margin-right: auto;
+    button {
+        color: $white;
+        display: none;
+    }
+    .searchInput {
+        background-color: transparent;
+        line-height: 1;
+        padding: 0.1rem 0.5rem;
+        width: 11rem;
+        outline: none;
+        color: #ffffff;
+        border: none;
+        font-size: 14px;
+    }
+}
+.user-menu {
+    //@include media("<=tablet") {
+        display: none;
+    //}
+}
+.navbar-burger {
+    @include media(">tablet") {
+        display: none;
+    }
+    @include media("<=tablet") {
+        display: flex;
+        cursor: pointer;
+        color: $primary-color;
+        padding: $spacing-basic;
+        position: relative;
+        user-select: none;
+        .navicon {
+            background: currentColor;
+            display: block;
+            height: 2px;
+            position: relative;
+            transition: background .2s ease-out;
+            width: 18px;
+            &:before,
+            &:after {
+                background: currentColor;
+                content: '';
+                display: block;
+                height: 100%;
+                position: absolute;
+                transition: all .2s ease-out;
+                width: 100%;
+            }
+            &:before {
+                top: 5px;
+            }
+            
+            &:after {
+                top: -5px;
+            }
+        }
+    }
+}
+.menu-btn {
+    display: none;
+    &:checked {
+        & ~ .navbar-menu {
+            display: block;
+            position: absolute;
+            top: 4rem;
+            right: 0;
+            width: 100%;
+            background: #000;
+            padding: 1rem;
+            z-index: 1;
+        }
+        & ~ .navbar-burger .navicon {
+            background: transparent;
+            &:before {
+                transform: rotate(-45deg);
+                top: 0;
+            }
+            
+            &:after {
+                transform: rotate(45deg);
+                top: 0;
+            }
+        }
+    }
+}

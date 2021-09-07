@@ -1,0 +1,15 @@
+footer.section {
+    background: $black;
+    padding: 1.25rem 2rem;
+}
+.footer-nav {
+    display: flex;
+    .logout {
+        margin-right: auto;
+        color: $gray-light;
+        text-decoration: none;
+        &:hover {
+            color: $white;
+        }
+    }
+}

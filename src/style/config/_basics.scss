@@ -1,0 +1,30 @@
+$spacing-basic: 1rem;
+$spacing-medium: .75rem;
+@import 'https://fonts.googleapis.com/css?family=Cairo:400,700&subset=arabic';
+$breakpoints: (phone: 20em, tablet: 48em, desktop: 64em);
+body {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    text-align: right;
+    background: $gray-dark;
+    color: $white;
+    letter-spacing: 0;
+}
+.section {
+    padding: 3rem 2rem;
+    .container {
+        margin: 0 auto;
+        position: relative;
+        max-width: 80rem;
+    }
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        text-align: right;
+    }
+}
+.grayscale {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
