@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/netflux/static/css/main.4f7962e8.chunk.css",
-    "main.js": "/netflux/static/js/main.985348f6.chunk.js",
-    "main.js.map": "/netflux/static/js/main.985348f6.chunk.js.map",
+    "main.js": "/netflux/static/js/main.6a3a89b5.chunk.js",
+    "main.js.map": "/netflux/static/js/main.6a3a89b5.chunk.js.map",
     "runtime~main.js": "/netflux/static/js/runtime~main.550adf04.js",
     "runtime~main.js.map": "/netflux/static/js/runtime~main.550adf04.js.map",
     "static/js/2.4f56bca3.chunk.js": "/netflux/static/js/2.4f56bca3.chunk.js",
     "static/js/2.4f56bca3.chunk.js.map": "/netflux/static/js/2.4f56bca3.chunk.js.map",
     "index.html": "/netflux/index.html",
-    "precache-manifest.7725c995d15c31a066ec39f67dca9bc7.js": "/netflux/precache-manifest.7725c995d15c31a066ec39f67dca9bc7.js",
+    "precache-manifest.defae82671600d50519c84bf8e6cc9f8.js": "/netflux/precache-manifest.defae82671600d50519c84bf8e6cc9f8.js",
     "service-worker.js": "/netflux/service-worker.js",
     "static/css/main.4f7962e8.chunk.css.map": "/netflux/static/css/main.4f7962e8.chunk.css.map",
     "static/media/all.scss": "/netflux/static/media/cover.e097d803.svg",

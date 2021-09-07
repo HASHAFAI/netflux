@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d22f0e96572c7fa438b0b0ea73e16d57",
+    "revision": "924caf2436c44dc37f6f16f82ea6c820",
     "url": "/netflux/index.html"
   },
   {
-    "revision": "2f769768f4ac9f44e7e5",
+    "revision": "375e64b10f8cd136c7f2",
     "url": "/netflux/static/css/main.4f7962e8.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/netflux/static/js/2.4f56bca3.chunk.js"
   },
   {
-    "revision": "2f769768f4ac9f44e7e5",
-    "url": "/netflux/static/js/main.985348f6.chunk.js"
+    "revision": "375e64b10f8cd136c7f2",
+    "url": "/netflux/static/js/main.6a3a89b5.chunk.js"
   },
   {
     "revision": "be6f51518a3eaf439d18",
