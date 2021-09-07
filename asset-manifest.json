@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/netflux/static/css/main.4f7962e8.chunk.css",
-    "main.js": "/netflux/static/js/main.6a3a89b5.chunk.js",
-    "main.js.map": "/netflux/static/js/main.6a3a89b5.chunk.js.map",
-    "runtime~main.js": "/netflux/static/js/runtime~main.550adf04.js",
-    "runtime~main.js.map": "/netflux/static/js/runtime~main.550adf04.js.map",
-    "static/js/2.4f56bca3.chunk.js": "/netflux/static/js/2.4f56bca3.chunk.js",
-    "static/js/2.4f56bca3.chunk.js.map": "/netflux/static/js/2.4f56bca3.chunk.js.map",
-    "index.html": "/netflux/index.html",
-    "precache-manifest.defae82671600d50519c84bf8e6cc9f8.js": "/netflux/precache-manifest.defae82671600d50519c84bf8e6cc9f8.js",
-    "service-worker.js": "/netflux/service-worker.js",
-    "static/css/main.4f7962e8.chunk.css.map": "/netflux/static/css/main.4f7962e8.chunk.css.map",
-    "static/media/all.scss": "/netflux/static/media/cover.e097d803.svg",
-    "static/media/logo.svg": "/netflux/static/media/logo.37a8bc92.svg"
+    "main.css": "/netflux/home/static/css/main.e196ca01.chunk.css",
+    "main.js": "/netflux/home/static/js/main.56096df1.chunk.js",
+    "main.js.map": "/netflux/home/static/js/main.56096df1.chunk.js.map",
+    "runtime~main.js": "/netflux/home/static/js/runtime~main.7d6babc8.js",
+    "runtime~main.js.map": "/netflux/home/static/js/runtime~main.7d6babc8.js.map",
+    "static/js/2.4f56bca3.chunk.js": "/netflux/home/static/js/2.4f56bca3.chunk.js",
+    "static/js/2.4f56bca3.chunk.js.map": "/netflux/home/static/js/2.4f56bca3.chunk.js.map",
+    "index.html": "/netflux/home/index.html",
+    "precache-manifest.0d8062e7d75cd979d1809dace8b828b7.js": "/netflux/home/precache-manifest.0d8062e7d75cd979d1809dace8b828b7.js",
+    "service-worker.js": "/netflux/home/service-worker.js",
+    "static/css/main.e196ca01.chunk.css.map": "/netflux/home/static/css/main.e196ca01.chunk.css.map",
+    "static/media/all.scss": "/netflux/home/static/media/cover.e097d803.svg",
+    "static/media/logo.svg": "/netflux/home/static/media/logo.37a8bc92.svg"
   }
 }
