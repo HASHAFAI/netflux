@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/netflux/static/css/main.34b70fdd.chunk.css",
-    "main.js": "/netflux/static/js/main.31e7e161.chunk.js",
-    "main.js.map": "/netflux/static/js/main.31e7e161.chunk.js.map",
+    "main.css": "/netflux/static/css/main.33cc24c9.chunk.css",
+    "main.js": "/netflux/static/js/main.d201ee47.chunk.js",
+    "main.js.map": "/netflux/static/js/main.d201ee47.chunk.js.map",
     "runtime~main.js": "/netflux/static/js/runtime~main.550adf04.js",
     "runtime~main.js.map": "/netflux/static/js/runtime~main.550adf04.js.map",
-    "static/js/2.ed2bfbaa.chunk.js": "/netflux/static/js/2.ed2bfbaa.chunk.js",
-    "static/js/2.ed2bfbaa.chunk.js.map": "/netflux/static/js/2.ed2bfbaa.chunk.js.map",
+    "static/js/2.85fcbc5f.chunk.js": "/netflux/static/js/2.85fcbc5f.chunk.js",
+    "static/js/2.85fcbc5f.chunk.js.map": "/netflux/static/js/2.85fcbc5f.chunk.js.map",
     "index.html": "/netflux/index.html",
-    "precache-manifest.1cdd386b609be8fc4168bf2fcbcae6b9.js": "/netflux/precache-manifest.1cdd386b609be8fc4168bf2fcbcae6b9.js",
+    "precache-manifest.a1c300c2a51ad4203f1682a39c6e4e2f.js": "/netflux/precache-manifest.a1c300c2a51ad4203f1682a39c6e4e2f.js",
     "service-worker.js": "/netflux/service-worker.js",
-    "static/css/main.34b70fdd.chunk.css.map": "/netflux/static/css/main.34b70fdd.chunk.css.map",
-    "static/media/all.scss": "/netflux/static/media/cover.e097d803.svg",
+    "static/css/main.33cc24c9.chunk.css.map": "/netflux/static/css/main.33cc24c9.chunk.css.map",
     "static/media/logo.svg": "/netflux/static/media/logo.37a8bc92.svg"
   }
 }
